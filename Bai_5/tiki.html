@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="tiki.css">
+</head>
+
+<body>
+
+    <div class="site-wrap clearfix">
+        <div class="document clearfix">
+            <h1>Tạo tài khoản</h1>
+            <p>
+                Tạo tài khoản để theo dõi đơn hàng, lưu
+                danh sách sản phẩm yêu thích, nhận
+                nhiều ưu đãi hấp dẫn.
+            </p>
+            <img src="graphic-map.png" alt="">
+        </div>
+
+        <div class="nav">
+            <ul class="clearfix">
+                <li><a href="DangNhap">Đăng nhập</a></li>
+                <li><a href="TaoTaiKhoan">Tạo Tài Khoản</a></li>
+            </ul>
+        </div>
+
+        <div class="registration">
+            <div class="infoContainer">
+                <div class="infoTitle">Họ tên</div>
+                <div class="box1">
+                    <input type="text" name="hoten" id="" placeholder="Nhập họ tên">
+                </div>
+            </div>
+
+            <div class="infoContainer">
+                <div class="infoTitle">STĐ</div>
+                <div class="box1">
+                    <input id="sdtInput" type="text" name="sodienthoai" placeholder="Nhập Số Điện Thoại">
+                    <div id="gmxt">Gửi mã xác thực</div>
+                </div>
+            </div>
+
+            <div class="infoContainer">
+                <div class="infoTitle">Mã xác thực</div>
+                <div class="box1">
+                    <input type="text" name="maxacthuc" placeholder="Nhập mã xác thực được gửi từ điện thoại">
+                </div>
+            </div>
+
+            <div class="infoContainer">
+                <div class="infoTitle">Email</div>
+                <div class="box1">
+                    <input type="email" name="email" placeholder="Nhập Email">
+                </div>
+            </div>
+
+            <div class="infoContainer">
+                <div class="infoTitle">Mật khẩu</div>
+                <div class="box1">
+                    <input type="password" name="matkhau" placeholder="Mật khẩu từ 6 đến 32 kí tự">
+                </div>
+            </div>
+
+            <div class="infoContainer">
+                <div class="infoTitle">Giới tính</div>
+                <div class="box1">
+                    <input id="Nam" type="radio" name="gioitinh" value="1"> Nam
+                    <input id="Nu" type="radio" name="gioitinh" value="0" checked> Nữ
+                </div>
+            </div>
+
+            <div class="infoContainer">
+                <div class="infoTitle">Ngày sinh</div>
+                <div class="box1">
+                    <select name="ngaysinh" id="ngaysinh" >
+                    </select>
+    
+                    <select name="thangsinh" id="thangsinh" >
+                    </select>
+    
+                    <select name="namsinh" id="namsinh" >
+                    </select>
+                </div>
+            </div>
+
+            <div>
+                <input type="checkbox" name="nhanbantin" value="1"> Nhận các thông tin và chương trình khuyến mãi của
+                Tiki qua email.
+            </div>
+
+            <div>
+                <button style="background-color: gold; border: none; width: 170px; height: 30px;">Tạo Tài Khoản</button>
+            </div>
+
+            <div>
+                Khi bạn nhấn Đăng ký, bạn đã đồng ý thực hiện mọi giao dịch mua bán theo <a
+                    href="https://hotro.tiki.vn/hc/vi/articles/201971214"> điều kiện sử dụng và chính sách của Tiki.</a>
+            </div>
+        </div>
+    </div>
+
+    <script src="tiki.js"></script>
+</body>
+
+</html>

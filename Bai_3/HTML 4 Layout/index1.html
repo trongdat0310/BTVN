@@ -12,12 +12,6 @@
             padding: 0;
         }
 
-        .clearfix::after {
-            content: "";
-            display: block;
-            clear: both;
-        }
-
         body {
             font-size: 18px;
         }
@@ -27,6 +21,7 @@
         .site-wrap {
             width: 1200px;
             margin: 0 auto;
+            border: black solid;
         }
 
         .header {
@@ -38,10 +33,16 @@
 
         /* end css header */
 
+        .clearfix::after {
+            content: "";
+            display: block;
+            clear: both;
+        }
+
         .nav ul {
             list-style: none;
             margin: 0;
-            padding: 0 10px;
+            padding: 0px 10px;
             background-color: chartreuse;
             box-sizing: border-box;
         }
@@ -50,7 +51,6 @@
             float: left;
             width: 150px;
             padding: 10px 0;
-            background-color: chartreuse;
         }
 
         .nav ul>li>a {
@@ -61,6 +61,7 @@
         .nav ul>li>a:hover {
             color: black;
         }
+        /* end nav */
 
         .content {
             width: 100%;
